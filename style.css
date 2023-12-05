@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+html{ 
+  font-size: 62.5%
+}
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', system-ui;
+
+}
+:root {
+    --rga: rgba(19,3,20,45);
+
+}
+.container {
+    background-image: url("img/back.png");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.glassy-container {
+    background: rgba(255, 255, 255, 0.37);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.9px);
+    -webkit-backdrop-filter: blur(4.9px);
+    border: 1px solid rgba(255, 255, 255, 0.66);
+    width: 75vw;
+    height: 44vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.logoContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo {
+    width: 45vw;
+    height: 45vw;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: -7rem;
+}
+.name {
+    margin: 9rem 0 0 0;
+}
+#containerIcon {
+    display: flex;
+    align-items: center;
+}
+.IconContainer {
+    width: 5rem;
+    height: 5rem;
+    margin: .5rem;
+    background: rgba(19, 3, 20, 0.56);
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.8px);
+    -webkit-backdrop-filter: blur(9.8px);
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon {
+    width: 4rem;
+    height: 4rem;
+    
+}
+
+.social-media-name {
+    font-size: .8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media-name > * {
+    background-color: var(--color);
+    border-radius: 1rem;
+    color: white;
+    margin: .4rem;
+    padding: .5rem 1rem;
+    margin-top: 1.5rem;
+}
